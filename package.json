@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://CaturSetyono.github.io/NYF",
+  "homepage": "https://catursetyono.github.io/NYF/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
