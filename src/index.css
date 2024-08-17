@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family:"Light";
+    src: local("Poppins-Light"),
+    url(./fonts/Poppins-Light.ttf) format("truetype");
+}
