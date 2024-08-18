@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import DarkMode from "./DarkMode";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
@@ -10,7 +9,6 @@ const Navbar = () => {
     <nav className="bg-gray-950 bg-opacity-90 backdrop-blur-md shadow-lg fixed w-full top-0 left-0 z-50">
       <div className="container mx-auto p-4 flex justify-between items-center">
         <div className="text-white font-bold text-lg">NYF</div>
-        <DarkMode></DarkMode>
         <div
           className="md:hidden text-white cursor-pointer"
           onClick={() => setIsOpen(!isOpen)}

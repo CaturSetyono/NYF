@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './index.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './Components/Navbar';
@@ -6,18 +6,17 @@ import Footer from './Components/Footer';
 import Home from './Pages/Home';
 import Blog from './Pages/Blog';
 
+const App = () =>{
+  
 
-function App() {
   return (
     <Router>
-      <div className="bg-gray-100 min-h-screen">
         <Navbar />
         <Routes>
           <Route path="/NYF" element={<Home />} />
           <Route path="/blog" element={<Blog />} />
         </Routes>
-        <Footer /> 
-      </div>
+        <Footer />
     </Router>
   );
 }

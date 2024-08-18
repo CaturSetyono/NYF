@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       id="sosmed"
-      className="border-t-2 border-gray-800 min-h-screen flex flex-col justify-center items-center bg-gray-950 text-white pt-16 md:pt-16 px-4"
+      className="border-t-2 border-gray-800 min-h-screen flex flex-col justify-center items-center bg-gray-950 text-white pt-16 md:pt-8 px-4"
     >
       <div className="min-h-screen bg-gray-950 text-white flex justify-center items-center p-8">
         <div className="text-center">
@@ -20,13 +20,13 @@ const About = () => {
             </a>
             <a
               href="https://discord.gg/z4A33TWN"
-              className="bg-blue-400 p-4 rounded-lg hover:bg-blue-500"
+              className="bg-indigo-600 p-4 rounded-lg hover:bg-blue-500"
             >
               Discord
             </a>
             <a
               href="https://www.instagram.com/notyourfriend_id/"
-              className="bg-pink-500 p-4 rounded-lg hover:bg-pink-600"
+              className="bg-gradient-to-r from-yellow-500 to-rose-600  p-4 rounded-lg hover:bg-gradient-to-r hover:from-rose-600 hover:to-yellow-500 "
             >
               Instagram
             </a>

@@ -1,29 +1,24 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from "react";
 
-const DarkMode = () => {
-  const [darkMode, setDarkMode] = useState(false);
-
+const DarkMode = ({ darkMode, setDarkMode }) => {
   useEffect(() => {
+    const root = document.documentElement;
     if (darkMode) {
-      document.documentElement.classList.add('dark');
+      root.classList.add("dark");
+      localStorage.setItem("theme", "dark");
     } else {
-      document.documentElement.classList.remove('dark');
+      root.classList.remove("dark");
+      localStorage.setItem("theme", "light");
     }
   }, [darkMode]);
 
   return (
-    <div className={darkMode ? 'dark' : ''}>
-      <button
-        onClick={() => setDarkMode(!darkMode)}
-        className="p-2 bg-gray-800 text-white dark:bg-white dark:text-black"
-      >
-        Toggle Dark Mode
-      </button>
-      <div className="p-4 bg-white dark:bg-gray-800 text-black dark:text-white">
-        <h1 className="text-2xl">Hello, World!</h1>
-        <p>This is a sample text.</p>
-      </div>
-    </div>
+    <button
+      onClick={() => setDarkMode(!darkMode)}
+      className="p-2 bg-gray-800 dark:bg-gray-200 text-white dark:text-black rounded-md hover:bg-gray-700 dark:hover:bg-gray-300 transition-colors duration-300"
+    >
+      {darkMode ? "Light Mode" : "Dark Mode"}
+    </button>
   );
 };
 
