@@ -9,7 +9,7 @@ const Footer = () => {
             &copy; {new Date().getFullYear()} NYF. All rights reserved.
           </p>
           <p className="mt-2 text-xs sm:text-sm md:text-base">
-            This website is designed to provide the best experience for our users. Feel free to contact us with any inquiries or feedback.
+            This website is designed to provide the best experience for our users. Feel free to contact us with any inquiries or feedback guys.
           </p>
         </div>
       </div>
