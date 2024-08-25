@@ -44,9 +44,9 @@ const ProductCatalog = () => {
               <img src={product.image} alt={product.title} className="w-full h-48 object-cover rounded-t-lg" />
               <h2 className="text-2xl font-bold">{product.title}</h2>
               <p className="mt-2">{product.description}</p>
-              <p className="mt-2">Price: ${product.price}</p>
+              <p className="mt-2">$ {product.price}</p>
               <div className="flex items-center mt-4">
-                <span className="text-lg font-bold">Rating:</span>
+                <span className="text-lg font-bold"></span>
                 {[...Array(5)].map((_, index) => (
                   <MdStar
                     key={index}

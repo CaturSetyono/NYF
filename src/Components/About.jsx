@@ -7,7 +7,7 @@ const About = () => {
       className="border-t-2 border-gray-800 min-h-screen flex flex-col justify-center items-center bg-gray-950 text-white pt-8 pb-8 md:pt-16 px-4"
     >
       <div className="flex flex-col md:flex-row max-w-5xl w-full p-8 gap-8">
-        <div className="flex-1">
+        <div className="flex-1 text-justify">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">About Us</h2>
           <p className="text-gray-300 mb-8 leading-relaxed">
             Welcome to NYF, your ultimate destination for all things gaming. We
