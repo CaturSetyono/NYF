@@ -2,7 +2,6 @@ import React from "react";
 import { HashLink } from 'react-router-hash-link';
 import About from "../Components/About";
 import Contact from "../Components/Contact";
-import Sosmed from "../Components/Sosmed";
 const Home = () => {
   return (
     <div className="bg-gray-950 text-white">
@@ -24,7 +23,6 @@ const Home = () => {
       </div>
       <About></About>
       <Contact></Contact>
-      <Sosmed></Sosmed>
     </div>
   );
 };

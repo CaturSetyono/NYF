@@ -53,6 +53,11 @@ const Navbar = () => {
             </HashLink>
           </li>
           <li className="text-center md:text-left my-2 md:my-0">
+            <Link to="/catalog" className="block py-2 md:py-0 hover:text-sky-500">
+              Catalog
+            </Link>
+          </li>
+          <li className="text-center md:text-left my-2 md:my-0">
             <Link to="/blog" className="block py-2 md:py-0 hover:text-sky-500">
               Blog
             </Link>
@@ -64,15 +69,6 @@ const Navbar = () => {
               className="block py-2 md:py-0 hover:text-sky-500"
             >
               Contact
-            </HashLink>
-          </li>
-          <li className="text-center md:text-left my-2 md:my-0">
-            <HashLink
-              smooth
-              to="/NYF/#sosmed"
-              className="block py-2 md:py-0 hover:text-sky-500"
-            >
-              Sosmed
             </HashLink>
           </li>
         </ul>
