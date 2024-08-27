@@ -3,14 +3,22 @@ import { FaFacebook, FaDiscord, FaInstagram, FaLinkedin } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="bg-gray-950 text-white  p-4 ">
-      <div className="container mx-auto px-4 ">
-        <div className="flex justify-center gap-[5%]">
-          <div className="w-[20%]">Text</div>
-          <div className="w-[20%]">Text</div>
-          <div className="w-[20%]">Text</div>
-          <div className="w-[20%]">Text</div>
+      <div className="container mx-auto px-4 mt-8">
+        <div className="flex justify-center items-center text-center gap-[5%]">
+          <div className="">
+            <a href="https://github.com/CaturSetyono">WHAT WE DO</a>
+          </div>
+          <div className="">
+            <a href="https://ukmik.utdi.ac.id/">OUR WORK</a>
+          </div>
+          <div className="">
+            <a href="https://www.utdi.ac.id/">COMPANY</a>
+          </div>
+          <div className="">
+            <a href="https://chatgpt.com/">RESOURCE</a>
+          </div>
         </div>
-        <div className="border-t-2 border-gray-800 mt-16">
+        <div className="text-light">
           <div className=" flex space-x-4 justify-center mt-8">
             <a
               href="https://web.facebook.com/profile.php?id=61562408777448"
@@ -34,7 +42,21 @@ const Footer = () => {
               <FaLinkedin className="text-4xl" />
             </a>
           </div>
-          <div className="flex space-x-4 justify-center">copyright &copy; 2023. All rights reserved.</div>
+          <div className="mt-4 flex space-x-4 justify-center">
+            <div className="mt-10 mb-4 space-x-4 justify-center items-center">
+              <h1 className="opacity-50">
+                Jalan Ir H Juanda No : 17. Telp ( 0274 ) 2810295. Bantul
+                Yogyakarta.
+              </h1>
+              <p className="p-4 text-center opacity-50">62 ( 0274 ) 2810295</p>
+              <p className=" text-center">catursetyono542@gmail.com</p>
+            </div>
+          </div>
+          <div className=" border-t-2 border-gray-800 mt-8 flex space-x-4 justify-center">
+            <div className="mt-10 mb-16 flex space-x-4 justify-center items-center opacity-50">
+              Copyright © 2024 || All rights reserved.
+            </div>
+          </div>
         </div>
       </div>
     </footer>
