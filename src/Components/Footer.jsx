@@ -42,18 +42,18 @@ const Footer = () => {
               <FaLinkedin className="text-4xl" />
             </a>
           </div>
-          <div className="mt-4 flex space-x-4 justify-center">
-            <div className="mt-10 mb-4 space-x-4 justify-center items-center">
-              <h1 className="opacity-50">
+          <div className="flex space-x-4 justify-center">
+            <div className="mt-8 mb-4 space-x-4 justify-center items-center opacity-50">
+              <h1>
                 Jalan Ir H Juanda No : 17. Telp ( 0274 ) 2810295. Bantul
                 Yogyakarta.
               </h1>
-              <p className="p-4 text-center opacity-50">62 ( 0274 ) 2810295</p>
+              <p className="p-4 text-center ">62 ( 0274 ) 2810295</p>
               <p className=" text-center">catursetyono542@gmail.com</p>
             </div>
           </div>
-          <div className=" border-t-2 border-gray-800 mt-8 flex space-x-4 justify-center">
-            <div className="mt-10 mb-16 flex space-x-4 justify-center items-center opacity-50">
+          <div className=" mt-8 flex space-x-4 justify-center items-center">
+            <div className=" p-8 w-[80%] border-t-2 border-gray-800  flex space-x-4 justify-center items-center opacity-50 ">
               Copyright © 2024 || All rights reserved.
             </div>
           </div>

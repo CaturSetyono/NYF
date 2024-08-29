@@ -1,6 +1,6 @@
 import React from "react";
-
-const About = () => {
+import nyfImage from "../assets/nyf.jpeg";
+function About() {
   return (
     <div
       id="about"
@@ -10,22 +10,34 @@ const About = () => {
         <div className="flex-1 text-justify">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">About Us</h2>
           <p className="text-gray-300 mb-8 leading-relaxed">
-            Welcome to NYF, your ultimate destination for all things gaming. We
-            are a team of dedicated enthusiasts who are passionate about gaming.
-            We believe that gaming is not just a hobby, but a passion. We strive
-            to provide our users with the best gaming experience possible.
+            NYF (notyourfriend_id) adalah seorang konten kreator yang berfokus
+            pada teknologi informasi dan isu-isu terkini seputar tech dan IT
+            solutions. Sebagai calon seorang web fullstack developer, NYF tidak hanya
+            membagikan pengetahuan mendalam tentang pengembangan web, tetapi
+            juga memberikan solusi inovatif untuk berbagai tantangan teknologi.
+            Dengan gaya yang modern dan konten yang selalu up-to-date, NYF
+            menjadi sumber inspirasi bagi para penggemar teknologi dan
+            profesional IT.{" "}
+          </p>
+          <p className="text-gray-300 mb-8 leading-relaxed">
+            Kami juga membuka kerja sama dalam berbagai bentuk, seperti
+            affiliate promotion, paid promotion, dan endorsement. Jika Anda
+            tertarik untuk bekerja sama dengan NYF untuk mempromosikan produk
+            atau layanan Anda, jangan ragu untuk menghubungi kami! Ikuti NYF
+            untuk mendapatkan wawasan terbaru dan solusi praktis dalam dunia
+            teknologi informasi!
           </p>
         </div>
         <div className="flex-1 flex justify-center items-center">
           <img
             className="rounded-lg shadow-lg max-w-[300px] h-auto"
-            src="https://images.unsplash.com/photo-1614289371518-722f2615943d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            src={nyfImage}
             alt="About Us"
           />
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default About;

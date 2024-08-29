@@ -6,6 +6,7 @@ import Footer from "./Components/Footer";
 import Home from "./Pages/Home";
 import Catalog from "./Pages/Catalog";
 import Blog from "./Pages/Blog";
+import ERR from "./Pages/ERR";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/NYF" element={<Home />} />
         <Route path="/catalog" element={<Catalog />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/eror" element={<ERR />} />
       </Routes>
       <Footer />
     </Router>
