@@ -10,22 +10,21 @@ function About() {
         <div className="flex-1 text-justify">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">About Us</h2>
           <p className="text-gray-300 mb-8 leading-relaxed">
-            NYF (notyourfriend_id) adalah seorang konten kreator yang berfokus
-            pada teknologi informasi dan isu-isu terkini seputar tech dan IT
-            solutions. Sebagai calon seorang web fullstack developer, NYF tidak hanya
-            membagikan pengetahuan mendalam tentang pengembangan web, tetapi
-            juga memberikan solusi inovatif untuk berbagai tantangan teknologi.
-            Dengan gaya yang modern dan konten yang selalu up-to-date, NYF
-            menjadi sumber inspirasi bagi para penggemar teknologi dan
-            profesional IT.{" "}
+            NYF (notyourfriend_id) is a content creator who focuses on on
+            information technology and current issues around tech and IT
+            solutions. solutions. As an aspiring fullstack web developer, NYF
+            not only shares in-depth knowledge about web development, but also
+            provides also provides innovative solutions to various technology
+            challenges. With its modern style and up-to-date content, NYF is a
+            source of inspiration for tech enthusiasts and IT professionals.
           </p>
           <p className="text-gray-300 mb-8 leading-relaxed">
-            Kami juga membuka kerja sama dalam berbagai bentuk, seperti
-            affiliate promotion, paid promotion, dan endorsement. Jika Anda
-            tertarik untuk bekerja sama dengan NYF untuk mempromosikan produk
-            atau layanan Anda, jangan ragu untuk menghubungi kami! Ikuti NYF
-            untuk mendapatkan wawasan terbaru dan solusi praktis dalam dunia
-            teknologi informasi!
+            We also open cooperation in various forms, such as affiliate
+            promotion, paid promotion, and endorsement. If you are interested in
+            working with NYF to promote your product or service, don't hesitate
+            to contact us! or your services, don't hesitate to contact us!
+            Follow NYF to get the latest insights and practical solutions in the
+            world of information technology!
           </p>
         </div>
         <div className="flex-1 flex justify-center items-center">
