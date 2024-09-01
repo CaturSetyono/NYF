@@ -53,14 +53,22 @@ const Navbar = () => {
             </HashLink>
           </li>
           <li className="text-center md:text-left my-2 md:my-0">
-            <Link to="/eror" className="block py-2 md:py-0 hover:text-sky-500">
+            <HashLink
+              smooth
+              to="/eror/#error"
+              className="block py-2 md:py-0 hover:text-sky-500"
+            >
               Catalog
-            </Link>
+            </HashLink>
           </li>
           <li className="text-center md:text-left my-2 md:my-0">
-            <Link to="/eror" className="block py-2 md:py-0 hover:text-sky-500">
+            <HashLink
+              smooth
+              to="/eror/#error"
+              className="block py-2 md:py-0 hover:text-sky-500"
+            >
               Blog
-            </Link>
+            </HashLink>
           </li>
           <li className="text-center md:text-left my-2 md:my-0">
             <HashLink
