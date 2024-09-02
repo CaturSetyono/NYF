@@ -1,6 +1,7 @@
 import React from "react";
 import { HashLink } from 'react-router-hash-link';
 import About from "../Components/About";
+import Service from "../Components/Service";
 import Contact from "../Components/Contact";
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
         </div>
       </div>
       <About></About>
+      <Service></Service>
       <Contact></Contact>
     </div>
   );
