@@ -43,11 +43,7 @@ const Contact = () => {
           </button>
         </form>
 
-        <button className=" mt-8 bg-transparent text-sky-500 border border-sky-500 px-6 py-2 rounded-lg hover:bg-sky-500 hover:text-white">
-          <Link to="/eror" className="flex items-center gap-2">
-            <FaDownload /> Download CV
-          </Link>
-        </button>
+        
       </div>
     </div>
   );
