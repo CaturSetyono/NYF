@@ -47,11 +47,19 @@ const ProductCatalog = () => {
     }));
   };
 
-  if (loading) return <p className="text-white">Loading...</p>;
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        {/* Animasi spinner loading */}
+        <div className="animate-spin rounded-full h-32 w-32 border-t-4 border-b-4 border-blue-500"></div>
+      </div>
+    );
+  }
+
   if (error) return <p className="text-red-500">{error}</p>;
 
   return (
-    <div className="min-h-screen bg-gray-950 p-24">
+    <div id="catalog" className="min-h-screen bg-gray-950 p-24">
       <div className="container mx-auto text-white">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {products.map((product) => (
@@ -61,7 +69,7 @@ const ProductCatalog = () => {
               <p className="mt-2">
                 {showFullDescription[product.id]
                   ? product.description
-                  : `${product.description.substring(0,0)}`}
+                  : `${product.description.substring(0, 100)}...`}
                 <button
                   className="text-blue-500 ml-2"
                   onClick={() => toggleDescription(product.id)}

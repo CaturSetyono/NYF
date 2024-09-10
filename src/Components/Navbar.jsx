@@ -31,7 +31,7 @@ const Navbar = () => {
       className="bg-gray-950 bg-opacity-90 backdrop-blur-md shadow-lg fixed w-full top-0 left-0 z-50"
     >
        <div className="container mx-auto p-4 flex justify-between items-center">
-        <div className="text-white font-bold text-lg">NYF</div>
+        <div className="text-white font-bold text-lg hover:text-sky-500 hover:cursor-pointer">.NYF</div>
         <div
           className="md:hidden text-white cursor-pointer"
           onClick={() => setIsOpen(!isOpen)}
@@ -56,7 +56,7 @@ const Navbar = () => {
           <li className="text-center md:text-left my-2 md:my-0 group">
             <HashLink
               smooth
-              to="/eror/#error"
+              to="/catalog/#catalog"
               className="block py-2 md:py-0 hover:text-sky-500 transition-colors duration-300 relative"
             >
               Catalog
