@@ -2,6 +2,7 @@ import React from "react";
 import { HashLink } from 'react-router-hash-link';
 import About from "../Components/About";
 import Service from "../Components/Service";
+import Latest from "../Components/Latest";
 import Contact from "../Components/Contact";
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       </div>
       <About></About>
       <Service></Service>
+      <Latest></Latest>
       <Contact></Contact>
     </div>
   );
