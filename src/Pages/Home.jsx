@@ -6,10 +6,10 @@ import Latest from "../Components/Latest";
 import Contact from "../Components/Contact";
 const Home = () => {
   return (
-    <div className="bg-gray-950 text-white">
+    <div className="bg-gray-950 text-white ">
       <div
         id="home"
-        className="min-h-screen flex flex-col justify-center items-center pt-16 md:pt-24 px-4"
+        className="min-h-screen flex flex-col justify-center items-center pt-16 md:pt-24 px-4 "
       >
         <div className="text-center">
           <h1 className="text-4xl md:text-6xl font-bold animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5">
@@ -17,7 +17,7 @@ const Home = () => {
           </h1>
           <p className="mt-4 text-lg md:text-2xl">Your journey begins here.</p>
            <HashLink smooth to="#about">
-            <button className="mt-8 px-6 py-3 bg-white text-gray-800 rounded-lg font-semibold hover:bg-slate-200">
+            <button className="mt-8 px-6 py-3 bg-white text-gray-800 rounded-lg font-semibold hover:bg-sky-200 animate-bounce">
               Get Started
             </button>
             </HashLink>
