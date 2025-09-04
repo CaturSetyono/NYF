@@ -66,7 +66,7 @@ const Navbar = () => {
           <li className="text-center md:text-left my-2 md:my-0 group">
             <HashLink
               smooth
-              to="/eror/#error"
+              to="/blog"
               className="block py-2 md:py-0 hover:text-sky-500 transition-colors duration-300 relative"
             >
               Blog
